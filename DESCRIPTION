@@ -1,0 +1,26 @@
+Package: UMassPAHL
+Title: Functions produced by UMass used to process accelerometer data and handle direct observation data
+Version: 0.0.0.9000
+Authors@R: c(
+    person(c("Robert", "T."), "Marcotte", email = "rmarcotte@umass.edu",
+		  role = c("aut","cre")),
+    person(c("Greg", "J."), "Petrucci Jr", role = "aut"))
+Description: Application of various methods to process accelerometer data and direct observation data from Noldus Observer XT. This package will provide convenient ways to implement multiple algorithms that use raw and count accelerometer data with the option to combine accelerometer and direct observation data streams. 
+Depends: R (>= 3.4.1)
+License: CC0
+Encoding: UTF-8
+LazyData: true
+Imports:
+  data.table (>= 1.10.4),
+  dplyr (>= 0.7.4),
+  GGIR (>= 1.5),
+  lubridate (>= 1.7.3),
+  nnet (>= 7.3),
+  plyr (>= 1.8.4),
+  randomForest (>= 4.6),
+  readxl (>= 1.0.0),
+  stats (>= 1.4.3),
+  tidyr (>= 0.8.0),
+  tree (>= 1.0)
+RoxygenNote: 6.0.1
+  
